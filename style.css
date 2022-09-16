@@ -123,6 +123,24 @@ header {
     margin: 10px 0 30px 20px;
 }
 
+.create-event-container {
+    flex-direction: column;
+
+}
+
+.event-booking-btn {
+    align-self: flex-start;
+}
+
+.create-event-submit {
+    align-self: center;
+}
+
+.event-booking-image img{
+    max-width: 100%;
+}
+
+
 @media screen and (max-width:992px){
     .hero-container{
         flex-direction: column-reverse;
@@ -152,6 +170,12 @@ header {
     }
     .information-box{
         flex-direction: column;
+    }
+    .event-booking-container {
+        flex-direction: column-reverse;
+    }
+    .event-booking-image {
+        margin-bottom: 20px;
     }
 }
 
