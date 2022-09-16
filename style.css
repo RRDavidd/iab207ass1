@@ -80,7 +80,7 @@ header {
     justify-content: center;
 }
 
-.hero-left button {
+.index-btn {
     align-self: flex-start;
 }
 
@@ -95,6 +95,9 @@ header {
     margin-top: 2.5px;
     position: absolute;
     display: none;
+}
+.hamburger:hover{
+    cursor: pointer;
 }
 
 .comment-box {
@@ -112,6 +115,14 @@ header {
     margin-right: 10px;
 }
 
+.event-details-btn{
+    align-self: flex-start;
+}
+
+.comment-btn {
+    margin: 10px 0 30px 20px;
+}
+
 @media screen and (max-width:992px){
     .hero-container{
         flex-direction: column-reverse;
@@ -119,9 +130,6 @@ header {
     }
     .hero-left{
         margin-top: 20px;
-    }
-    .hero-img img {
-
     }
     .nav-bar-right ul{
         display:none;
@@ -136,10 +144,19 @@ header {
         display: block;
         position: initial;
     }
+    .event-details-btn{
+        align-self: center;
+    }
+    .index-btn{
+        align-self: center;
+    }
 }
 
-@media screen and (max-width:568px){
-    .hero-image img {
+@media screen and (max-width:767px ) {
+    .index-hero-row{
+        flex-direction: column-reverse;
+    }
+    .hero-image{
         margin-bottom: 20px;
     }
 }
