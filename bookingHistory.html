@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Booking</title>
+    <title>Booking History</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
@@ -31,44 +31,33 @@
     </header>
     <section class="container hero-container mt-5">
         <div class="create-event-container d-flex">
-            <div class="row event-booking-container">
-                <div class="col-lg-6 event-booking-left">
-                    <h1>Book a ticket for EVENT NAME</h1>
-                    <form>
-                        <div class="input-group mb-2">
-                            <span class="input-group-text">Name</span>
-                            <input type="text" class="form-control" placeholder="Name">
+            <h1>Booking History</h1>
+            <div class="history-container d-flex mt-2">
+                <div class="row event-booking-container mb-2">
+                    <div class="col-lg-8 event-booking-left">
+                        <h3>Event Name</h3>
+                        <p>Booking Order ID: 123456789</p>
+                        <p>Booked at: September 16, 2022</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="event-booking-image">
+                            <img src="image/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg">
                         </div>
-                        <div class="input-group mb-2">
-                            <span class="input-group-text">Card Number</span>
-                            <input type="text" class="form-control" placeholder="Card Number">
-                        </div>
-                        <div class="input-group mb-2 row g-2">
-                            <div class="col-lg-4 col-sm-12">
-                                <select class="form-select">
-                                    <option selected>Qty.</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                  </select>
-                            </div>
-                            <div class="col-lg-4 col-sm-12">
-                                <input type="text" class="form-control" placeholder="Expiry Date">
-                            </div>
-                            <div class="col-lg-4 col-sm-12">
-                                <input type="text" class="form-control" placeholder="CCV">
-                            </div>
-                        </div>
-                    </form>
-                    <button class="btn btn-primary event-booking-btn">Book Event</button>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="event-booking-image">
-                        <img src="image/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg">
+                <div class="row event-booking-container mb-2">
+                    <div class="col-lg-8 event-booking-left">
+                        <h3>Event Name</h3>
+                        <p>Booking Order ID: 123456789</p>
+                        <p>Booked at: September 16, 2022</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="event-booking-image">
+                            <img src="image/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg">
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
     <section class="whats-on-section container-fluid p-3 mt-5">
