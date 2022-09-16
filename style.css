@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+header {
+    background: black;
+    padding:20px;
+    color:white;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-items {
+    display:flex;
+    margin: 0;
+    align-items: center;
+}
+
+.nav-items li {
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.body-container {
+    color: black;
+}
+
+.index-btn{
+    align-self: flex-start;
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+.whats-on-section {
+    background-color: black;
+    color: white;
+}
+
+.hero-image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-image img{
+    width:100%;
+}
+
+.grid-images img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.hero-left{
+    margin-right:20px;
+    flex-direction: column;
+}
+
+.hero-left-index{
+    margin-right:20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-left button {
+    align-self: flex-start;
+}
+
+.nav-bar-right{
+    display:none;
+}
+
+.lines{
+    background-color: white;
+    width: 25px;
+    height:2.5px;
+    margin-top: 2.5px;
+    position: absolute;
+    display: none;
+}
+
+.comment-box {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.avatar{
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    background-color: grey;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:992px){
+    .hero-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .hero-left{
+        margin-top: 20px;
+    }
+    .hero-img img {
+
+    }
+    .nav-bar-right ul{
+        display:none;
+    }
+    .navbar-container nav{
+        position: absolute;
+    }
+    .navbar-container{
+        align-items:center;
+    }
+    .lines {
+        display: block;
+        position: initial;
+    }
+}
+
+@media screen and (max-width:568px){
+    .hero-image img {
+        margin-bottom: 20px;
+    }
+}
