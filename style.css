@@ -150,6 +150,9 @@ header {
     .index-btn{
         align-self: center;
     }
+    .information-box{
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width:767px ) {
@@ -158,5 +161,14 @@ header {
     }
     .hero-image{
         margin-bottom: 20px;
+    }
+    .information-box{
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:380px ) {
+    .information-box {
+        flex-direction: column;
     }
 }
